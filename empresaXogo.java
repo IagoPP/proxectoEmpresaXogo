@@ -11,8 +11,7 @@ public class empresaXogo {
     public static void calcularEntrada() {
         int idade;
         double prezo;
- 	       
-	System.out.println("Albricias! Esto es un conflito")
+
         System.out.println("Indica a idade do cliente: ");
         idade = input.nextInt();
         if (idade < 0) {
@@ -28,6 +27,7 @@ public class empresaXogo {
                 }
             }
             System.out.println("O prezo da entrada para o cliente é: " + prezo);
+	    System.out.println("Despedida do proxecto xogo");
         }
     }
 }
